@@ -1,0 +1,34 @@
+body{
+	display: grid;
+	grid-template-areas: 
+	"headeri headeri headeri"
+	"main sidebar-1 sidebar-2"
+	"footer footer footer";
+	grid-gap: 10px;
+	min-height: 100vh;
+	margin: 0;
+}
+
+#header {
+	padding: 20px;
+	background: orange;
+	grid-area:headeri;
+}
+#main {
+	padding: 20px;
+	background-color: blue;
+	grid-area: main;
+}
+#sidebar-1,#sidebar-2{
+	padding: 20px;
+	background-color:pink;
+	grid-area: sidebar-1;
+}
+#sidebar-2{
+	grid-area: sidebar-2;
+}
+#footer{
+	background: lightblue;
+	padding: 20px;
+	grid-area: footer;
+}

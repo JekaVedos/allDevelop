@@ -1,0 +1,98 @@
+body,html{
+   width: 100%;
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-family: montserrat;
+   user-select: none;
+}
+
+.container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+   height: 100%;
+}
+
+.open_btn{
+   width: 60%;
+   height: 60%;
+   background: rgb(255,0,81);
+   background: linear-gradient(90deg, rgba(255,0,81,1) 0%, rgba(106,61,186,1) 67%);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 100px;
+   font-weight: 700;
+   cursor: pointer;
+   border-radius: 30px;
+}
+
+.open_btn_inner{
+   background: rgb(195,188,34);
+   background: linear-gradient(0deg, rgba(195,188,34,1) 28%, rgba(72,232,217,1) 80%);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+
+.modal{
+   display: none;
+}
+
+.modal_click{
+   position: absolute;
+   display: block;
+   z-index: 999;
+   width: 80%;
+   height: 80%;
+   background: rgb(63,94,251);
+   background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(158,9,190,1) 100%);
+   font-size: 100px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-weight: bold;
+   border-radius: 40px;
+}
+
+.modal_inner_t{
+   background: rgb(34,195,193);
+   background: linear-gradient(0deg, rgba(34,195,193,1) 28%, rgba(196,232,72,1) 80%);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+
+.close{
+   position: absolute;
+   top: 25px;
+   right: 25px;
+   font-size: 50px;
+   cursor: pointer;
+   transition: .3s ease;
+   background: rgb(34,195,193);
+   background: linear-gradient(0deg, rgba(34,195,193,1) 28%, rgba(196,232,72,1) 80%);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+
+.close:hover{
+   text-transform: uppercase;
+   background: rgb(195,188,34);
+   background: linear-gradient(0deg, rgb(247, 235, 9) 28%, rgba(72,232,217,1) 80%);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,20 @@
+
+.t{
+	width: 600px;
+	height: 300px;
+	border: 1px solid black;
+	margin:200px auto;
+}
+.s{
+	width:50px;
+	height:50px;
+	background: blue;
+	position: fixed;
+/*	position:relative;
+	position: absolute;*/
+
+/*	left: 100px;
+	top: 50px;*/
+	right: 30px;
+	bottom: 30px;
+}
